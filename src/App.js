@@ -13,6 +13,7 @@ import Createcommunityminipage from "./components/Createcommunityminipage";
 import Signinsignup from "./components/Signinsignup";
 import Joincommunity from "./components/Joincommunity";
 import Dashboard from "./components/Dashboard";
+import Settings from "./components/Settings";
 
 
 export const App = () => {
@@ -37,6 +38,8 @@ export const App = () => {
         <Route path="/joincommunity" element={<Joincommunity />} />
 
         <Route path="/dashboard" element={<Dashboard />} />
+        
+        <Route path="/settings" element={<Settings />} />
 
 
       </Routes>

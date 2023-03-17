@@ -313,7 +313,9 @@ const Dashboard = () => {
         <div className="username-settings">
         <Gi3DGlasses style={{ color: 'white', fontSize: '24px', backgroundColor: 'b71c83' }}/>
           <div style={{ color: 'b71c83' }} className="username">Username</div>
-          <FaCog className="icon" />
+          <NavLink to = "/settings">
+            <FaCog style={{ color: 'white'}} className="icon" />
+          </NavLink>
         </div>
         </form>
       </div>
